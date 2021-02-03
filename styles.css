@@ -1,0 +1,27 @@
+body {
+    background: #ffffff;
+}
+.container {
+    border: 5px solid #000000;
+    margin: 0 auto;
+    width: 700px;
+    height: 900px;
+    position: relative;
+}
+.ball {
+    position: relative;
+    animation-name: pilota;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+@keyframes pilota {
+    0% {left: 0px; top: 0px;}
+    50% {left: 350px; top: 781px;}
+    65% {left: 600px; top: 395px}
+    80% {left: 400px; top: 781px}
+    90% {left: 350px; top: 690px}
+    95% {left: 300px; top: 781px;}
+    100% {left: 290px; top: 781px;}
+}
